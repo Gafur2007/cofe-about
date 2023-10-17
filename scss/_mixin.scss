@@ -1,0 +1,22 @@
+@mixin Flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin Link {
+    color: var(--color-Grey);
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+
+
+    &:hover {
+        color: black;
+        text-decoration: underline;
+    }
+}
